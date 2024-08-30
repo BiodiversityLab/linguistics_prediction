@@ -1,0 +1,345 @@
+{
+    "gdemCnn": {
+        "custom_permutation_importance_method": true,
+        "labels": 1,
+        "features": [
+          "projects_sat-io_open-datasets_ASTER_GDEM"
+        ],
+        "channels": {
+          "COPERNICUS_S2_SR_HARMONIZED": [
+            9,
+            12
+          ],
+          "WORLDCLIM_V1_BIO": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18
+          ]
+        },
+        "channels_name": {
+          "COPERNICUS_S2_SR_HARMONIZED": [
+            "b9",
+            "NDVI"
+          ],
+          "WORLDCLIM_V1_BIO": [
+            "Annual mean temperature",
+            "Mean diurnal range",
+            "Isothermality",
+            "Temperature seasonality",
+            "Max temperature of warmest month",
+            "Min temperature of coldest month",
+            "Temperature annual range",
+            "Mean temperature of wettest quarter",
+            "Mean temperature of driest quarter",
+            "Mean temperature of warmest quarter",
+            "Mean temperature of coldest quarter",
+            "Annual precipitation",
+            "Precipitation of wettest month",
+            "Precipitation of driest month",
+            "Precipitation seasonality",
+            "Precipitation of wettest quarter",
+            "Precipitation of driest quarter",
+            "Precipitation of warmest quarter",
+            "Precipitation of coldest quarter"
+          ]
+        }
+      },
+    "gdemRoadCopernicusCnn": {
+        "custom_permutation_importance_method": true,
+        "labels": 1,
+        "features": [
+          "projects_sat-io_open-datasets_ASTER_GDEM",
+          "projects_HII_v1_driver_roads",
+          "COPERNICUS_S2_SR_HARMONIZED"
+        ],
+        "channels": {
+          "COPERNICUS_S2_SR_HARMONIZED": [
+            9,
+            12
+          ],
+          "WORLDCLIM_V1_BIO": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18
+          ]
+        },
+        "channels_name": {
+          "COPERNICUS_S2_SR_HARMONIZED": [
+            "b9",
+            "NDVI"
+          ],
+          "WORLDCLIM_V1_BIO": [
+            "Annual mean temperature",
+            "Mean diurnal range",
+            "Isothermality",
+            "Temperature seasonality",
+            "Max temperature of warmest month",
+            "Min temperature of coldest month",
+            "Temperature annual range",
+            "Mean temperature of wettest quarter",
+            "Mean temperature of driest quarter",
+            "Mean temperature of warmest quarter",
+            "Mean temperature of coldest quarter",
+            "Annual precipitation",
+            "Precipitation of wettest month",
+            "Precipitation of driest month",
+            "Precipitation seasonality",
+            "Precipitation of wettest quarter",
+            "Precipitation of driest quarter",
+            "Precipitation of warmest quarter",
+            "Precipitation of coldest quarter"
+          ]
+        }
+      },
+    "LandCoverCnn": {
+        "custom_permutation_importance_method": true,
+        "labels": 1,
+        "features":
+            [
+                "COPERNICUS_Landcover_100m_Proba-V-C3_Global"
+            ],
+        "channels":  
+                {
+                    "COPERNICUS_Landcover_100m_Proba-V-C3_Global" : [0,1,2,3,4,5,6,7,8,9,10,11,12,13]
+                },
+        "channels_name":
+                {
+                    "COPERNICUS_Landcover_100m_Proba-V-C3_Global" : [
+                        "Land cover classification",
+                        "Quality indicator ",
+                        "Forest type for all pixels with tree percentage vegetation cover bigger than 1 %",
+                        "Percent vegetation cover for bare-sparse-vegetation land cover class",
+                        "Percent vegetation cover for cropland land cover class",
+                        "Percent vegetation cover for herbaceous vegetation land cover class",
+                        "Percent vegetation cover for moss and lichen land cover class",
+                        "Percent vegetation cover for shrubland land cover class",
+                        "Percent vegetation cover for forest land cover class",
+                        "Percent ground cover for snow and ice land cover class",
+                        "Percent ground cover for built-up land cover class",
+                        "Percent ground cover for permanent water land cover class",
+                        "Percent ground cover for seasonal water land cover class",
+                        "Data density indicator for algorithm input data",
+                        "This layer is only provided for years after the BaseYear 2015"
+                    ]
+                }
+    },
+    "LangCnn": {
+        "custom_permutation_importance_method": true,
+        "labels": 1,
+        "features":
+            [
+                "projects_HII_v1_driver_infrastructure",
+                "projects_HII_v1_driver_land_use",
+                "projects_HII_v1_driver_population_density",
+                "projects_HII_v1_driver_power",
+                "projects_HII_v1_driver_railways",
+                "projects_HII_v1_driver_roads",
+                "projects_HII_v1_driver_water",
+                "projects_HII_v1_driver_hii",
+                "projects_sat-io_open-datasets_ASTER_GDEM",
+                "WORLDCLIM_V1_BIO",
+                "COPERNICUS_S2_SR_HARMONIZED"
+            ],
+        "channels":  
+                {
+                    "COPERNICUS_S2_SR_HARMONIZED" : [9, 12],
+                    "WORLDCLIM_V1_BIO" : [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18]
+                },
+        "channels_name":
+                {
+                    "COPERNICUS_S2_SR_HARMONIZED" : ["b9", "NDVI"],
+                    "WORLDCLIM_V1_BIO" : [
+                        "Annual mean temperature",
+                        "Mean diurnal range",
+                        "Isothermality",
+                        "Temperature seasonality",
+                        "Max temperature of warmest month",
+                        "Min temperature of coldest month",
+                        "Temperature annual range",
+                        "Mean temperature of wettest quarter",
+                        "Mean temperature of driest quarter",
+                        "Mean temperature of warmest quarter",
+                        "Mean temperature of coldest quarter",
+                        "Annual precipitation",
+                        "Precipitation of wettest month",
+                        "Precipitation of driest month",
+                        "Precipitation seasonality",
+                        "Precipitation of wettest quarter",
+                        "Precipitation of driest quarter",
+                        "Precipitation of warmest quarter",
+                        "Precipitation of coldest quarter"
+                    ]
+                }
+    },
+    "LangCnnExcludeSomeHii": {
+        "custom_permutation_importance_method": true,
+        "labels": 1,
+        "features":
+            [        
+                "projects_HII_v1_driver_land_use",
+                "projects_HII_v1_driver_roads",
+                "projects_HII_v1_driver_water",
+                "projects_sat-io_open-datasets_ASTER_GDEM",
+                "WORLDCLIM_V1_BIO",
+                "COPERNICUS_S2_SR_HARMONIZED"
+            ],
+        "channels":  
+                {
+                    "COPERNICUS_S2_SR_HARMONIZED" : [9, 12],
+                    "WORLDCLIM_V1_BIO" : [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18]
+                },
+        "channels_name":
+                {
+                    "COPERNICUS_S2_SR_HARMONIZED" : ["b9", "NDVI"],
+                    "WORLDCLIM_V1_BIO" : [
+                        "Annual mean temperature",
+                        "Mean diurnal range",
+                        "Isothermality",
+                        "Temperature seasonality",
+                        "Max temperature of warmest month",
+                        "Min temperature of coldest month",
+                        "Temperature annual range",
+                        "Mean temperature of wettest quarter",
+                        "Mean temperature of driest quarter",
+                        "Mean temperature of warmest quarter",
+                        "Mean temperature of coldest quarter",
+                        "Annual precipitation",
+                        "Precipitation of wettest month",
+                        "Precipitation of driest month",
+                        "Precipitation seasonality",
+                        "Precipitation of wettest quarter",
+                        "Precipitation of driest quarter",
+                        "Precipitation of warmest quarter",
+                        "Precipitation of coldest quarter"
+                    ]
+                }
+    },
+    "LangCnn_remove_anual_precipitation": {
+        "custom_permutation_importance_method": true,
+        "labels": 1,
+        "features":
+            [
+                "projects_HII_v1_driver_infrastructure",
+                "projects_HII_v1_driver_land_use",
+                "projects_HII_v1_driver_population_density",
+                "projects_HII_v1_driver_power",
+                "projects_HII_v1_driver_railways",
+                "projects_HII_v1_driver_roads",
+                "projects_HII_v1_driver_water",
+                "projects_HII_v1_driver_hii",
+                "projects_sat-io_open-datasets_ASTER_GDEM",
+                "WORLDCLIM_V1_BIO",
+                "COPERNICUS_S2_SR_HARMONIZED"
+            ],
+        "channels":  
+                {
+                    "COPERNICUS_S2_SR_HARMONIZED" : [9, 12],
+                    "WORLDCLIM_V1_BIO" : [0,1,2,3,4,5,6,7,8,9,10,12,13,14,15,16,17,18]
+                },
+        "channels_name":
+                {
+                    "COPERNICUS_S2_SR_HARMONIZED" : ["b9", "NDVI"],
+                    "WORLDCLIM_V1_BIO" : [
+                        "Annual mean temperature",
+                        "Mean diurnal range",
+                        "Isothermality",
+                        "Temperature seasonality",
+                        "Max temperature of warmest month",
+                        "Min temperature of coldest month",
+                        "Temperature annual range",
+                        "Mean temperature of wettest quarter",
+                        "Mean temperature of driest quarter",
+                        "Mean temperature of warmest quarter",
+                        "Mean temperature of coldest quarter",
+                        "Precipitation of wettest month",
+                        "Precipitation of driest month",
+                        "Precipitation seasonality",
+                        "Precipitation of wettest quarter",
+                        "Precipitation of driest quarter",
+                        "Precipitation of warmest quarter",
+                        "Precipitation of coldest quarter"
+                    ]
+                }
+    },
+    "LangCnnMultiLabel": {
+        "custom_permutation_importance_method": true,
+        "labels": 2,
+        "features":
+            [
+                "projects_HII_v1_driver_infrastructure",
+                "projects_HII_v1_driver_land_use",
+                "projects_HII_v1_driver_population_density",
+                "projects_HII_v1_driver_power",
+                "projects_HII_v1_driver_railways",
+                "projects_HII_v1_driver_roads",
+                "projects_HII_v1_driver_water",
+                "projects_HII_v1_driver_hii",
+                "projects_sat-io_open-datasets_ASTER_GDEM",
+                "WORLDCLIM_V1_BIO",
+                "COPERNICUS_S2_SR_HARMONIZED"
+            ],
+            "channels":  
+                    {
+                        "COPERNICUS_S2_SR_HARMONIZED" : [9, 12],
+                        "WORLDCLIM_V1_BIO" : [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18]
+                    },
+            "channels_name":
+                    {
+                        "COPERNICUS_S2_SR_HARMONIZED" : ["b9", "NDVI"],
+                        "WORLDCLIM_V1_BIO" : [
+                            "Annual mean temperature",
+                            "Mean diurnal range",
+                            "Isothermality",
+                            "Temperature seasonality",
+                            "Max temperature of warmest month",
+                            "Min temperature of coldest month",
+                            "Temperature annual range",
+                            "Mean temperature of wettest quarter",
+                            "Mean temperature of driest quarter",
+                            "Mean temperature of warmest quarter",
+                            "Mean temperature of coldest quarter",
+                            "Annual precipitation",
+                            "Precipitation of wettest month",
+                            "Precipitation of driest month",
+                            "Precipitation seasonality",
+                            "Precipitation of wettest quarter",
+                            "Precipitation of driest quarter",
+                            "Precipitation of warmest quarter",
+                            "Precipitation of coldest quarter"
+                        ]
+                    }
+    }
+
+}

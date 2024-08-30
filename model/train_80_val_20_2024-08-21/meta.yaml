@@ -1,0 +1,15 @@
+artifact_uri: file:///mnt/mlruns/548228508305111147/76c6eec093a643c7bbe6cd40e5c15d09/artifacts
+end_time: 1724221372420
+entry_point_name: ''
+experiment_id: '548228508305111147'
+lifecycle_stage: active
+run_id: 76c6eec093a643c7bbe6cd40e5c15d09
+run_name: capable-bear-346
+run_uuid: 76c6eec093a643c7bbe6cd40e5c15d09
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1724220996236
+status: 3
+tags: []
+user_id: root

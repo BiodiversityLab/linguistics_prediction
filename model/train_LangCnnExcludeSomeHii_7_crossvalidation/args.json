@@ -1,0 +1,16 @@
+{
+    "architecture": "cnn",
+    "model": "detail_estimator_cnn_model",
+    "configuration": "LangCnnExcludeSomeHii",
+    "dataset_module": "detail_estimator_dataset_cnn",
+    "epochs": 40,
+    "batch_size": 8,
+    "learning_rate": 1e-05,
+    "run_path": "train",
+    "mlflow_experiment": "cnn_all_2024-08-20",
+    "permutation_feature_importance_exclude_channels": [],
+    "weights": "",
+    "feature_data_dir": "features_100",
+    "multi_label": false,
+    "device": "0"
+}

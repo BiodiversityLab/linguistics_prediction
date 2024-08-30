@@ -1,0 +1,8 @@
+{
+    "COPERNICUS_S2_SR_HARMONIZED_b9": 13,
+    "COPERNICUS_S2_SR_HARMONIZED_NDVI": 19,
+    "WORLDCLIM_V1_BIO_Annual mean temperature": 1,
+    "WORLDCLIM_V1_BIO_Mean diurnal range": 1,
+    "WORLDCLIM_V1_BIO_Isothermality": 1,
+    "WORLDCLIM_V1_BIO_Temperature seasonality": 1
+}

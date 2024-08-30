@@ -1,0 +1,117 @@
+{
+    "Lang": {
+        "features": [
+            "projects_HII_v1_driver_infrastructure",
+            "projects_HII_v1_driver_land_use",
+            "projects_HII_v1_driver_population_density",
+            "projects_HII_v1_driver_power",
+            "projects_HII_v1_driver_railways",
+            "projects_HII_v1_driver_roads",
+            "projects_HII_v1_driver_water",
+            "projects_HII_v1_driver_hii",
+            "projects_sat-io_open-datasets_ASTER_GDEM",
+            "WORLDCLIM_V1_BIO",
+            "COPERNICUS_S2_SR_HARMONIZED"
+        ],
+        "channels": {
+            "COPERNICUS_S2_SR_HARMONIZED": [
+                9,
+                12
+            ],
+            "WORLDCLIM_V1_BIO": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16,
+                17,
+                18
+            ]
+        },
+        "channels_name": {
+            "COPERNICUS_S2_SR_HARMONIZED": [
+                "b9",
+                "NDVI"
+            ],
+            "WORLDCLIM_V1_BIO": [
+                "Annual mean temperature",
+                "Mean diurnal range",
+                "Isothermality",
+                "Temperature seasonality",
+                "Max temperature of warmest month",
+                "Min temperature of coldest month",
+                "Temperature annual range",
+                "Mean temperature of wettest quarter",
+                "Mean temperature of driest quarter",
+                "Mean temperature of warmest quarter",
+                "Mean temperature of coldest quarter",
+                "Annual precipitation",
+                "Precipitation of wettest month",
+                "Precipitation of driest month",
+                "Precipitation seasonality",
+                "Precipitation of wettest quarter",
+                "Precipitation of driest quarter",
+                "Precipitation of warmest quarter",
+                "Precipitation of coldest quarter"
+            ]
+        }
+    },
+    "LangCnn": {
+        "features":
+            [
+                "projects_HII_v1_driver_infrastructure",
+                "projects_HII_v1_driver_land_use",
+                "projects_HII_v1_driver_population_density",
+                "projects_HII_v1_driver_power",
+                "projects_HII_v1_driver_railways",
+                "projects_HII_v1_driver_roads",
+                "projects_HII_v1_driver_water",
+                "projects_HII_v1_driver_hii",
+                "projects_sat-io_open-datasets_ASTER_GDEM",
+                "WORLDCLIM_V1_BIO",
+                "COPERNICUS_S2_SR_HARMONIZED"
+            ],
+        "channels":  
+                {
+                    "COPERNICUS_S2_SR_HARMONIZED" : [9, 12],
+                    "WORLDCLIM_V1_BIO" : [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18]
+                },
+        "channels_name":
+                {
+                    "COPERNICUS_S2_SR_HARMONIZED" : ["b9", "NDVI"],
+                    "WORLDCLIM_V1_BIO" : [
+                        "Annual mean temperature",
+                        "Mean diurnal range",
+                        "Isothermality",
+                        "Temperature seasonality",
+                        "Max temperature of warmest month",
+                        "Min temperature of coldest month",
+                        "Temperature annual range",
+                        "Mean temperature of wettest quarter",
+                        "Mean temperature of driest quarter",
+                        "Mean temperature of warmest quarter",
+                        "Mean temperature of coldest quarter",
+                        "Annual precipitation",
+                        "Precipitation of wettest month",
+                        "Precipitation of driest month",
+                        "Precipitation seasonality",
+                        "Precipitation of wettest quarter",
+                        "Precipitation of driest quarter",
+                        "Precipitation of warmest quarter",
+                        "Precipitation of coldest quarter"
+                    ]
+                }
+    }
+}
